@@ -1,0 +1,136 @@
+/*
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Copyright 2013 Mangrove Tech, Inc.
+//  All Rights Reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+@font-face {
+	font-family: LatoLight;
+	src: url("./fonts/Lato-Light.ttf");
+}
+
+a{
+	font-style: none;
+	color: #8a8a8a;
+
+}
+#containter{
+	width: 100%;
+}
+
+#container-head{
+	width: 100%;
+	margin: 0px;
+	border-bottom:1px solid #e1e1e1; 
+}
+#nav{
+	margin: 30px auto 30px auto;
+	width: 960px;
+}
+
+#container-middle{
+	width: 100%;
+	margin: 0px;
+	border-bottom:1px solid #e1e1e1; 
+}
+
+#slide-box{
+	width: 960px;
+	height: 550px;
+	margin: 0 auto;
+}
+#slide-box-left{
+	float: left;
+	width: 580px;
+}
+#icon{
+	margin: 40px 0px 0px 210px;
+	float: left;
+}
+#slogan{
+	float: left;
+	margin: 0px 0px 5px 0px;
+	font-family: 'LatoLight';
+	font-size: 40px;
+	line-height: 20px;
+	color: #686868;
+	height: 60px;
+}
+#app-description{
+	float: left;
+	margin: 0px;
+    font-family: 'LatoLight',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+   	font-size: 18px;
+	color: #8a8a8a;
+	line-height: 28px;
+}
+
+#appstore-link{
+	float: left;
+	margin: 40px 0 5px 0;
+}
+#app-info{
+	float: left;
+	font-family: 'LatoLight',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+   	font-size: 14px;
+	color: #8a8a8a;
+	margin: 10px 0 0 0;
+	line-height: 20px;
+}
+
+#slide-box-right{
+	float: left;
+	width: 380px;
+	height: 550px;
+	background: url(./images/iphone-warp.png) no-repeat right bottom;
+}
+#screen-shot{
+	margin: 130px 0 0 52px;
+	width: 300px;
+	height: 420px;
+	background: url(./images/iphone-screenshot-0.png) no-repeat right bottom;
+}
+
+#container-footer{
+
+	width: 960px;
+	margin: 15px auto;
+
+}
+
+#contact{
+	float: left;
+	width: 400px;
+	font-family: 'LatoLight',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+   	font-size: 14px;
+	color: #8a8a8a;
+}
+
+#contact a{
+	margin: 0 20px 0 0;
+}
+
+#contact a:hover{
+     -moz-transform: translateY(-10px);
+     -webkit-transform: translateY(-10px);
+     -o-transform: translateY(-10px);
+     -ms-transform: translateY(-10px);
+     transform: translateY(-10px);    
+ }
+#copyright{
+	float: right;
+	width: 300px;
+	font-family: 'LatoLight',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+   	font-size: 12px;
+	color: #8a8a8a;
+	text-align: right;
+	margin: 20px 0 0 0;
+}
+
